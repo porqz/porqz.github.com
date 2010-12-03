@@ -6,7 +6,6 @@ html,
 		font: normal 12px/1.4em Arial, sans-serif;
 		color: #000;
 		min-width: 980px;
-		padding: 20px;
 		/* width: 980px; */
 		/*width: 1280px; */
 		/*width: 1600px; */
@@ -20,16 +19,11 @@ html,
 			z-index: 1;
 			padding: 0 40px;
 		}
-			.body { padding: 0 0 180px; }
+			.body { padding: 50px 0 180px; }
 
 		.footer {
-			height: 135px;
+			height: 160px;
 			position: relative;
 			z-index: 2;
 			margin: -160px 0 0;
-			padding: 25px 65px 0 85px;
 		}
-			
-			.footer .logotype {
-				margin: 0 0 5px 0;
-			}
