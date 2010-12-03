@@ -12,4 +12,7 @@ div, span, a, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, blockqu
 img { border: 0; }
 
 /* Headers */
-h1 {}
+h1, h2, h3, h4, h5 {
+	color: #666;
+	font-family: Georgia, serif;
+}
