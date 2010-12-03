@@ -1,0 +1,34 @@
+html,
+	body { height: 100%; }
+
+	body {
+		background: url("/i/body-background.png") 50% 50% no-repeat #c3c3c3;
+		font: normal 12px/1.4em Arial, sans-serif;
+		color: #000;
+		min-width: 980px;
+		/* width: 980px; */
+		/*width: 1280px; */
+		/*width: 1600px; */
+	}
+		.wrapper {
+			height: auto !important;
+			height: 100%;
+			margin: 0 auto;
+			min-height: 100%;
+			position: relative;
+			z-index: 1;
+			padding: 0 40px;
+		}
+			.body { padding: 0 0 180px; }
+
+		.footer {
+			height: 135px;
+			position: relative;
+			z-index: 2;
+			margin: -160px 0 0;
+			padding: 25px 65px 0 85px;
+		}
+			
+			.footer .logotype {
+				margin: 0 0 5px 0;
+			}

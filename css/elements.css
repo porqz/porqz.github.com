@@ -1,0 +1,15 @@
+/* File includes styles of elements */
+
+/* Reset */
+div, span, a, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, blockquote, fieldset, dl, dt, dd, caption, img, input, table, tr, td, textarea {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+
+/* Images */
+img { border: 0; }
+
+/* Headers */
+h1 {}
