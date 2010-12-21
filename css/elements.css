@@ -21,26 +21,25 @@ h1, h2, h3, h4, h5 {
 
 h1 { font-size: 5em; }
 
+
 p.greetings {
 	font-family: Georgia, serif;
 	font-size: 3em;
 }
 
-/* Sprites */
-.sprite {
-	background: url("/i/sprites.png") 0 0 no-repeat transparent;
-}
 
-.mario {
+/* Sprites */
+.sprite { background: url("/i/sprites.png") 0 0 no-repeat transparent; }
+
+.sprite.mario {
 	height: 32px;
 	width: 32px;
 	margin: 0 auto;
 	background-position: 0 0;
 }
 
-.land {
+.sprite.land {
 	height: 64px;
 	background-position: 0 -96px;
 	background-repeat: repeat-x;
 }
-/* /Sprites */
