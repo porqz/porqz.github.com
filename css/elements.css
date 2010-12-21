@@ -16,13 +16,14 @@ h1, h2, h3, h4, h5 {
 	color: #fff;
 	font-family: Georgia, serif;
 	font-weight: normal;
+	margin: 1em 0;
 }
 
 h1 { font-size: 5em; }
 
 p.greetings {
 	font-family: Georgia, serif;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 /* Sprites */
