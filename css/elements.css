@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5 {
 
 h1 { font-size: 3.5em; }
 
+p.greetings {
+	font-family: Georgia, serif;
+	font-size: 1.5em;
+}
 
 /* Sprites */
 .mario {
