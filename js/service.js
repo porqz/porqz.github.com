@@ -3,7 +3,7 @@ window[/*@cc_on'attachEvent'||@*/'addEventListener'](/*@cc_on'on'+@*/'load', fun
 			land = document.getElementById("land"),
 			
 			mario_sprite_size = 32,
-			mario_sprites_count = 4,
+			mario_sprites_count = 3,
 			mario_current_sprite_number = 0,
 
 			land_position_x = 0,
