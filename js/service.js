@@ -17,7 +17,7 @@ window[/*@cc_on'attachEvent'||@*/'addEventListener'](/*@cc_on'on'+@*/'load', fun
 				land_position_x = (land_position_x > document.body.clientWidth) ? -10 : land_position_x + 10;
 
 				mario.style.backgroundPosition = "0 -" + mario_current_sprite_number * mario_sprite_size + "px";
-				land.style.backgroundPosition = -land_position_x + "px 128px";
+				land.style.backgroundPosition = -land_position_x + "px -96px";
 			}, 90);
 }, false);
 
