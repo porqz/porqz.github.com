@@ -18,11 +18,11 @@ h1, h2, h3, h4, h5 {
 	font-weight: normal;
 }
 
-h1 { font-size: 3.5em; }
+h1 { font-size: 5em; }
 
 p.greetings {
 	font-family: Georgia, serif;
-	font-size: 1.5em;
+	font-size: 4em;
 }
 
 /* Sprites */
