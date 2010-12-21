@@ -13,9 +13,24 @@ img { border: 0; }
 
 /* Headers */
 h1, h2, h3, h4, h5 {
-	color: #111;
+	color: #fff;
 	font-family: Georgia, serif;
 	font-weight: normal;
 }
 
-h1 { font-size: 2.5em; }
+h1 { font-size: 3.5em; }
+
+
+/* Sprites */
+.mario {
+	height: 80px;
+	width: 75px;
+	background: url("/i/mario.png") 0 0 no-repeat transparent;
+	margin: 0 auto;
+}
+
+.land {
+	height: 160px;
+	background: url("/i/land.png") 0 0 repeat transparent;
+}
+/* /Sprites */

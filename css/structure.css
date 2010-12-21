@@ -2,28 +2,22 @@ html,
 	body { height: 100%; }
 
 	body {
-		background: url("/i/body-background.png") 50% 50% no-repeat #fff;
 		font: normal 12px/1.4em Arial, sans-serif;
 		color: #000;
 		min-width: 980px;
-		/* width: 980px; */
-		/*width: 1280px; */
-		/*width: 1600px; */
+		background-color: #548cff;
 	}
 		.wrapper {
 			height: auto !important;
 			height: 100%;
 			margin: 0 auto;
 			min-height: 100%;
-			position: relative;
 			z-index: 1;
 			padding: 0 40px;
 		}
-			.body { padding: 50px 0 180px; }
 
 		.footer {
-			height: 160px;
-			position: relative;
+			height: 240px;
 			z-index: 2;
-			margin: -160px 0 0;
+			margin: -240px 0 0;
 		}
