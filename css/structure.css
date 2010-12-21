@@ -16,11 +16,11 @@ html,
 			padding: 0 40px;
 		}
 			.body {
-					padding: 60px 0 300px 0;
+					padding: 60px 0 128px 0;
 			}
 
 		.footer {
-			height: 240px;
+			height: 96px;
 			z-index: 2;
-			margin: -240px 0 0;
+			margin: -96px 0 0;
 		}

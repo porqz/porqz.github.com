@@ -27,15 +27,20 @@ p.greetings {
 }
 
 /* Sprites */
+.sprite {
+	background: url("/i/sprites.png") 0 0 no-repeat transparent;
+}
+
 .mario {
-	height: 80px;
-	width: 75px;
-	background: url("/i/mario.png") 0 0 no-repeat transparent;
+	height: 32px;
+	width: 32px;
 	margin: 0 auto;
+	background-position: 0 0;
 }
 
 .land {
-	height: 160px;
-	background: url("/i/land.png") 0 0 repeat transparent;
+	height: 64px;
+	background-position: 0 128px;
+	background-repeat: repeat-x;
 }
 /* /Sprites */

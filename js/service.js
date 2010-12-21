@@ -2,10 +2,11 @@ window[/*@cc_on'attachEvent'||@*/'addEventListener'](/*@cc_on'on'+@*/'load', fun
 	var mario = document.getElementById("mario"),
 			land = document.getElementById("land"),
 			
-			mario_sprite_size = 80,
-			mario_sprites_count = 3,
+			mario_sprite_size = 32,
+			mario_sprites_count = 4,
 			mario_current_sprite_number = 0,
-			position_x = 0,
+
+			land_position_x = 0,
 
 			animator = setInterval(function() {
 				if (mario_current_sprite_number == mario_sprites_count - 1) 
@@ -13,10 +14,10 @@ window[/*@cc_on'attachEvent'||@*/'addEventListener'](/*@cc_on'on'+@*/'load', fun
 				else
 					mario_current_sprite_number = mario_current_sprite_number + 1;
 
-				position_x = (position_x > document.body.clientWidth) ? -15 : position_x + 15;
+				land_position_x = (land_position_x > document.body.clientWidth) ? -10 : land_position_x + 10;
 
 				mario.style.backgroundPosition = "0 -" + mario_current_sprite_number * mario_sprite_size + "px";
-				land.style.backgroundPosition = -position_x + "px 0";
+				land.style.backgroundPosition = -land_position_x + "px 128px";
 			}, 90);
 }, false);
 
